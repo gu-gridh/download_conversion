@@ -1,0 +1,557 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{iiif_image3}{online}{}{}
+      \name{editor}{5}{}{%
+        {{un=0,uniquepart=base,hash=140e0ce05074caaed2ddc8de190a16b1}{%
+           family={Appleby},
+           familyi={A\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2412785f56c49fddc68207db53035c01}{%
+           family={Crane},
+           familyi={C\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bf307e8da17e0762c3e1b4b96b6e019}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27ca4ccd9f1f363511efc802516fd0a4}{%
+           family={Stroop},
+           familyi={S\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1048646028c0d2f58dd378908d99021}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IIIF Consortium}%
+      }
+      \strng{namehash}{5b3b5ecd2a860c789a1171ce6948d334}
+      \strng{fullhash}{db08baaea7c57863b4910ddf543207d1}
+      \strng{fullhashraw}{db08baaea7c57863b4910ddf543207d1}
+      \strng{bibnamehash}{db08baaea7c57863b4910ddf543207d1}
+      \strng{editorbibnamehash}{db08baaea7c57863b4910ddf543207d1}
+      \strng{editornamehash}{5b3b5ecd2a860c789a1171ce6948d334}
+      \strng{editorfullhash}{db08baaea7c57863b4910ddf543207d1}
+      \strng{editorfullhashraw}{db08baaea7c57863b4910ddf543207d1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{{IIIF} Image {API} 3.0}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://iiif.io/api/image/3.0/
+      \endverb
+      \verb{url}
+      \verb https://iiif.io/api/image/3.0/
+      \endverb
+    \endentry
+    \entry{carroll2020}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c904641acabeb09a54828bb34cd9c8f2}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Stephanie\bibnamedelima Russo},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e90b926ecd6be2d457e4fd96fa7b7703}{%
+           family={Garba},
+           familyi={G\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0397c7bacd0693eda496f619ace0e496}{%
+           family={Figueroa-Rodríguez},
+           familyi={F\bibinithyphendelim R\bibinitperiod},
+           given={Oscar\bibnamedelima L.},
+           giveni={O\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{fullhash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{fullhashraw}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{bibnamehash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{authorbibnamehash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{authornamehash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{authorfullhash}{414a0fb9f67642940ee73d4c646bba8c}
+      \strng{authorfullhashraw}{414a0fb9f67642940ee73d4c646bba8c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Data Science Journal}
+      \field{number}{1}
+      \field{title}{The {CARE} Principles for {Indigenous} Data Governance}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{43}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5334/dsj-2020-043
+      \endverb
+    \endentry
+    \entry{gridh}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ac0cb1f363344bfcabc86dd6982da6f}{%
+           family={{GRIDH}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {University of Gothenburg}%
+      }
+      \strng{namehash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{fullhash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{fullhashraw}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{bibnamehash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{authorbibnamehash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{authornamehash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{authorfullhash}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \strng{authorfullhashraw}{3ac0cb1f363344bfcabc86dd6982da6f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gothenburg Research Infrastructure in Digital Humanities}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gu.se/en/digital-humanities
+      \endverb
+      \verb{url}
+      \verb https://www.gu.se/en/digital-humanities
+      \endverb
+    \endentry
+    \entry{mosqueira2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=491dced518dc84937f39843d4561f589}{%
+           family={Mosqueira-Rey},
+           familyi={M\bibinithyphendelim R\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fdcb02ef3a244881fe8e4bc25023da5}{%
+           family={Hernández-Pereira},
+           familyi={H\bibinithyphendelim P\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62cfbce39320d4e5da6d30d65442c66}{%
+           family={Alonso-Ríos},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6cca5b275889763b91a78863d241f31}{%
+           family={Bobes-Bascarán},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c9288054029874c6eb5282677f85bf8}{%
+           family={Fernández-Leal},
+           familyi={F\bibinithyphendelim L\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6be18862f638bc332e5a23a920b0209f}
+      \strng{fullhash}{91acfc87bac6157264246eb568bbd91f}
+      \strng{fullhashraw}{91acfc87bac6157264246eb568bbd91f}
+      \strng{bibnamehash}{91acfc87bac6157264246eb568bbd91f}
+      \strng{authorbibnamehash}{91acfc87bac6157264246eb568bbd91f}
+      \strng{authornamehash}{6be18862f638bc332e5a23a920b0209f}
+      \strng{authorfullhash}{91acfc87bac6157264246eb568bbd91f}
+      \strng{authorfullhashraw}{91acfc87bac6157264246eb568bbd91f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{title}{Human-in-the-Loop Machine Learning: A State of the Art}
+      \field{volume}{56}
+      \field{year}{2023}
+      \field{pages}{3005\bibrangedash 3054}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1007/s10462-022-10246-w
+      \endverb
+    \endentry
+    \entry{padilla2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc77ea3052bd5609059e8df1da988075}{%
+           family={Padilla},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {OCLC Research}%
+      }
+      \list{location}{1}{%
+        {Dublin, OH}%
+      }
+      \strng{namehash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{fullhash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{fullhashraw}{bc77ea3052bd5609059e8df1da988075}
+      \strng{bibnamehash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{authorbibnamehash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{authornamehash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{authorfullhash}{bc77ea3052bd5609059e8df1da988075}
+      \strng{authorfullhashraw}{bc77ea3052bd5609059e8df1da988075}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Responsible Operations: Data Science, Machine Learning, and {AI} in Libraries}
+      \field{type}{Research Position Paper}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.25333/xk7z-9g97
+      \endverb
+    \endentry
+    \entry{pendergrass2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5b055f99d6b2d80eff1d86d003e29212}{%
+           family={Pendergrass},
+           familyi={P\bibinitperiod},
+           given={Keith\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94c202fbd4a652e9b03e66c18cdf3ba3}{%
+           family={Sampson},
+           familyi={S\bibinitperiod},
+           given={Walker},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d2854ca79b62ff39b802b578852ae6a}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f324904a6bdf6bf1d9e09b54d022945}{%
+           family={Alagna},
+           familyi={A\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{61cda4b897a1e290668643315a90b9be}
+      \strng{fullhash}{17c098014b75ff3bd756aaf92b757c6b}
+      \strng{fullhashraw}{17c098014b75ff3bd756aaf92b757c6b}
+      \strng{bibnamehash}{17c098014b75ff3bd756aaf92b757c6b}
+      \strng{authorbibnamehash}{17c098014b75ff3bd756aaf92b757c6b}
+      \strng{authornamehash}{61cda4b897a1e290668643315a90b9be}
+      \strng{authorfullhash}{17c098014b75ff3bd756aaf92b757c6b}
+      \strng{authorfullhashraw}{17c098014b75ff3bd756aaf92b757c6b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{The American Archivist}
+      \field{number}{1}
+      \field{title}{Toward Environmentally Sustainable Digital Preservation}
+      \field{volume}{82}
+      \field{year}{2019}
+      \field{pages}{165\bibrangedash 206}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.17723/0360-9081-82.1.165
+      \endverb
+    \endentry
+    \entry{snydman2015}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4494cb7ec2ca018e79fc4d2e4bba850f}{%
+           family={Snydman},
+           familyi={S\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bf307e8da17e0762c3e1b4b96b6e019}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbd7e2fdfe40963cf6a1951bfb924773}{%
+           family={Cramer},
+           familyi={C\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Society for Imaging Science}%
+        {Technology}%
+      }
+      \strng{namehash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{fullhash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{fullhashraw}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{bibnamehash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{authorbibnamehash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{authornamehash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{authorfullhash}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \strng{authorfullhashraw}{bb3864d79e3afc579fa7d4f8d3e37c24}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Archiving 2015 Final Program and Proceedings}
+      \field{title}{The {International Image Interoperability Framework} ({IIIF}): A Community \& Technology Approach for Web-Based Images}
+      \field{year}{2015}
+      \field{pages}{16\bibrangedash 21}
+      \range{pages}{6}
+    \endentry
+    \entry{star1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07b9d5352ccd3653aa9637be5175f31a}{%
+           family={Star},
+           familyi={S\bibinitperiod},
+           given={Susan\bibnamedelima Leigh},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{fullhash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{fullhashraw}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{bibnamehash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{authorbibnamehash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{authornamehash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{authorfullhash}{07b9d5352ccd3653aa9637be5175f31a}
+      \strng{authorfullhashraw}{07b9d5352ccd3653aa9637be5175f31a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{American Behavioral Scientist}
+      \field{number}{3}
+      \field{title}{The Ethnography of Infrastructure}
+      \field{volume}{43}
+      \field{year}{1999}
+      \field{pages}{377\bibrangedash 391}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1177/00027649921955326
+      \endverb
+    \endentry
+    \entry{star1996}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=07b9d5352ccd3653aa9637be5175f31a}{%
+           family={Star},
+           familyi={S\bibinitperiod},
+           given={Susan\bibnamedelima Leigh},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40b838039aee1128a88bcd57520da11e}{%
+           family={Ruhleder},
+           familyi={R\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{fullhash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{fullhashraw}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{bibnamehash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{authorbibnamehash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{authornamehash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{authorfullhash}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \strng{authorfullhashraw}{09fae3fdf9acf97c0f6fc64a2cba48d0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Information Systems Research}
+      \field{number}{1}
+      \field{title}{Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces}
+      \field{volume}{7}
+      \field{year}{1996}
+      \field{pages}{111\bibrangedash 134}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1287/isre.7.1.111
+      \endverb
+    \endentry
+    \entry{terras2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=81fc3db7858db9ce1ee0954402639462}{%
+           family={Terras},
+           familyi={T\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{fullhash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{fullhashraw}{81fc3db7858db9ce1ee0954402639462}
+      \strng{bibnamehash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{authorbibnamehash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{authornamehash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{authorfullhash}{81fc3db7858db9ce1ee0954402639462}
+      \strng{authorfullhashraw}{81fc3db7858db9ce1ee0954402639462}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Online Information Review}
+      \field{number}{5}
+      \field{title}{Opening Access to Collections: The Making and Using of Open Digitised Cultural Content}
+      \field{volume}{39}
+      \field{year}{2015}
+      \field{pages}{733\bibrangedash 752}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1108/OIR-06-2015-0193
+      \endverb
+    \endentry
+    \entry{weinberg2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ad97663dc309743cafd1216dfe340b39}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {GLAM-E Lab}%
+      }
+      \strng{namehash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{fullhash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{fullhashraw}{ad97663dc309743cafd1216dfe340b39}
+      \strng{bibnamehash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{authorbibnamehash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{authornamehash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{authorfullhash}{ad97663dc309743cafd1216dfe340b39}
+      \strng{authorfullhashraw}{ad97663dc309743cafd1216dfe340b39}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Are {AI} Bots Knocking Cultural Heritage Offline?}
+      \field{type}{Report}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline/
+      \endverb
+      \verb{url}
+      \verb https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline/
+      \endverb
+    \endentry
+    \entry{wilkinson2016}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e88185c2eca4405ce11cb8920f485660}{%
+           family={Wilkinson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93badcbcd9ff0747849763affb474199}{%
+           family={Dumontier},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda28834d0f69262ef00bb56bd87a0c0}{%
+           family={Aalbersberg},
+           familyi={A\bibinitperiod},
+           given={IJsbrand\bibnamedelima Jan},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{fullhash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{fullhashraw}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{bibnamehash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{authorbibnamehash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{authornamehash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{authorfullhash}{d8f0363b3c965933a541bbcdf16fe221}
+      \strng{authorfullhashraw}{d8f0363b3c965933a541bbcdf16fe221}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Scientific Data}
+      \field{title}{The {FAIR} Guiding Principles for Scientific Data Management and Stewardship}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{160018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/sdata.2016.18
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -29,8 +29,11 @@ FOCUS_MATRIX = (0.2126 * FOCUS_BRIGHTNESS, 0.7152 * FOCUS_BRIGHTNESS, 0.0722 * F
 STROKE_REFERENCE_SIZE = 1000
 STROKE_WIDTH = 1.5
 DASH_LENGTH = 1.0
-# Point annotations are tiny in source coordinates; keep them visible.
-MIN_POINT_RADIUS = 3.0
+# Point annotations are tiny in source coordinates; draw them as small solid dots
+# (radius in "screen pixels" like STROKE_WIDTH) to match the viewer.
+MIN_POINT_RADIUS = 1.25
+# Bump when drawing changes so cached annotated renderings are regenerated.
+RENDER_VERSION = 2
 MAX_PAGES = 1000
 
 FRAGMENT_PATTERN = re.compile(
@@ -160,7 +163,8 @@ def render_variant_key(shapes: List[Shape], focus: bool) -> Optional[str]:
     """Stable key for an annotated/focused rendering, or None for the plain image."""
     if not shapes and not focus:
         return None
-    digest = hashlib.sha256(json.dumps({"focus": bool(focus), "shapes": shapes}, sort_keys=True).encode()).hexdigest()[:16]
+    key = {"focus": bool(focus), "shapes": shapes, "render_version": RENDER_VERSION}
+    digest = hashlib.sha256(json.dumps(key, sort_keys=True).encode()).hexdigest()[:16]
     return f"{'focus-' if focus else ''}{digest}"
 
 
@@ -227,12 +231,7 @@ def draw_annotations(img: Image.Image, shapes: List[Shape]) -> Image.Image:
             xs, ys = [p[0] for p in points], [p[1] for p in points]
             if max(xs) - min(xs) < 2 * min_radius and max(ys) - min(ys) < 2 * min_radius:
                 cx, cy = sum(xs) / len(xs), sum(ys) / len(ys)
-                draw.ellipse(
-                    [cx - min_radius, cy - min_radius, cx + min_radius, cy + min_radius],
-                    fill=_rgba(color, POINT_FILL_OPACITY),
-                    outline=_rgba(color),
-                    width=stroke,
-                )
+                draw.ellipse([cx - min_radius, cy - min_radius, cx + min_radius, cy + min_radius], fill=_rgba(color))
             else:
                 draw.polygon(points, fill=_rgba(color, POINT_FILL_OPACITY), outline=_rgba(color), width=stroke)
 

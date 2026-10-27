@@ -110,7 +110,7 @@ The annotation URL is fetched (following `next` pagination links) and each annot
 | Selector | Used by | Drawn as |
 |----------|---------|----------|
 | `SvgSelector` `<polygon>` | Munch | Closed outline, no fill, colour from `body.categories[0].color` (fallback `#ff0000`) |
-| `SvgSelector` `<polygon data-point="true">` | Munch | Outline plus fill in the same colour at 35% opacity. Points smaller than a few pixels are drawn as a small dot so they stay visible |
+| `SvgSelector` `<polygon data-point="true">` | Munch | Outline plus fill in the same colour at 35% opacity. Points smaller than a few pixels are drawn as a small solid dot (radius 1.25 px per 1000 px of the longest side) so they stay visible |
 | `SvgSelector` `<polyline>` | Munch | Open outline (last point not joined to the first) |
 | `FragmentSelector` `xywh=percent:x,y,w,h` | Saint Sophia | Rectangle, no fill, white dotted outline |
 

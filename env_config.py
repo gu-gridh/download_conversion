@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 DEFAULT_STORAGE_ROOT = Path("./image_storage")
 DEFAULT_DB_FILENAME = ".file_index.db"
@@ -117,6 +117,11 @@ def get_server_url_from_env() -> str:
 def get_download_base_url_from_env() -> str:
     value = os.environ.get("IMAGE_DOWNLOAD_BASE_URL", "").strip()
     return value or DEFAULT_DOWNLOAD_BASE_URL
+
+
+def get_cors_origins_from_env() -> List[str]:
+    value = os.environ.get("IMAGE_CORS_ORIGINS", "")
+    return [origin.strip().rstrip("/") for origin in value.split(",") if origin.strip()]
 
 
 def _parse_bool_env(value: str, default: bool) -> bool:

@@ -1,15 +1,25 @@
 from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from env_config import get_index_db_from_env, get_server_host_from_env, get_server_port_from_env, get_storage_root_from_env, load_dotenv
+from env_config import get_cors_origins_from_env, get_index_db_from_env, get_server_host_from_env, get_server_port_from_env, get_storage_root_from_env, load_dotenv
 from image_processor import ImageProcessor, parse_api_url
 
 app = FastAPI(title="Image Processing Server")
 
 load_dotenv()
+
+cors_origins = get_cors_origins_from_env()
+if cors_origins:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=cors_origins,
+        allow_methods=["GET", "POST"],
+        allow_headers=["*"],
+    )
 
 storage_root = get_storage_root_from_env()
 index_db = get_index_db_from_env(storage_root)

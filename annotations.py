@@ -25,15 +25,17 @@ POINT_FILL_OPACITY = 0.35
 # CSS grayscale(1) uses Rec. 709 luma; brightness(0.45) scales it.
 FOCUS_BRIGHTNESS = 0.45
 FOCUS_MATRIX = (0.2126 * FOCUS_BRIGHTNESS, 0.7152 * FOCUS_BRIGHTNESS, 0.0722 * FOCUS_BRIGHTNESS, 0)
-# Stroke widths are in "screen pixels" for a ~1000px image and scale up for larger output.
+# Stroke widths are in "screen pixels" for a ~1000px image. Larger output scales them
+# by sqrt(size / reference) so they stay visible in an overview without getting
+# thick when zoomed in.
 STROKE_REFERENCE_SIZE = 1000
 STROKE_WIDTH = 1.5
 DASH_LENGTH = 1.0
-# Point annotations are tiny in source coordinates; draw them as small solid dots
-# (radius in "screen pixels" like STROKE_WIDTH) to match the viewer.
-MIN_POINT_RADIUS = 1.25
+# Point annotations are tiny in source coordinates; like the viewer, draw them as
+# solid dots as wide as a stroke.
+MIN_POINT_RADIUS = STROKE_WIDTH / 2
 # Bump when drawing changes so cached annotated renderings are regenerated.
-RENDER_VERSION = 2
+RENDER_VERSION = 4
 MAX_PAGES = 1000
 
 FRAGMENT_PATTERN = re.compile(
@@ -200,7 +202,7 @@ def draw_annotations(img: Image.Image, shapes: List[Shape]) -> Image.Image:
     if not shapes:
         return img
     width, height = img.size
-    scale = max(1.0, max(width, height) / STROKE_REFERENCE_SIZE)
+    scale = max(1.0, max(width, height) / STROKE_REFERENCE_SIZE) ** 0.5
     stroke = max(1, round(STROKE_WIDTH * scale))
     dash = max(1.0, DASH_LENGTH * scale)
     min_radius = MIN_POINT_RADIUS * scale

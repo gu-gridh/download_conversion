@@ -110,11 +110,11 @@ The annotation URL is fetched (following `next` pagination links) and each annot
 | Selector | Used by | Drawn as |
 |----------|---------|----------|
 | `SvgSelector` `<polygon>` | Munch | Closed outline, no fill, colour from `body.categories[0].color` (fallback `#ff0000`) |
-| `SvgSelector` `<polygon data-point="true">` | Munch | Outline plus fill in the same colour at 35% opacity. Points smaller than a few pixels are drawn as a small solid dot (radius 1.25 px per 1000 px of the longest side) so they stay visible |
+| `SvgSelector` `<polygon data-point="true">` | Munch | Outline plus fill in the same colour at 35% opacity. Points smaller than a few pixels are drawn as a solid dot as wide as the outline stroke so they stay visible |
 | `SvgSelector` `<polyline>` | Munch | Open outline (last point not joined to the first) |
 | `FragmentSelector` `xywh=percent:x,y,w,h` | Saint Sophia | Rectangle, no fill, white dotted outline |
 
-SVG coordinates are 0–1 and fragment coordinates are 0–100 percent; both are multiplied by the output image size after resizing to the requested quality. Stroke widths are 1.5 px per 1000 px of the image's longest side.
+SVG coordinates are 0–1 and fragment coordinates are 0–100 percent; both are multiplied by the output image size after resizing to the requested quality. Stroke widths are 1.5 px for a 1000 px image and grow with the square root of the image's longest side (about 4 px at 7500 px, 6 px at 15000 px), so annotations stay visible in an overview without getting thick when zoomed in.
 
 Annotated or focused renderings are stored in a sub-directory named after a hash of the drawn shapes and the focus flag (`converted/{id}/{quality}/{variant}/...`). The annotation API is queried on every request, so a cached rendering is reused only while the annotations are unchanged. These variant files are not added to the SQLite index, so they do not appear in the `/projects` listings.
 
